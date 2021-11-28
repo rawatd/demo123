@@ -1,0 +1,84 @@
+What is RTCI ?
+
+Where is user regsiatraion details stored ? CRM Or Customer account Management system or Antao ? what are the Db for each? Have we identified it ?
+
+what information is stored in Customer account Managemnt system ? How is it different from Information to be stored in Antao ?
+
+Customer Account Master System sync the approved registration records to Loyalty system Antao ? - how real-time ? or batch as mention in usecase ?
+
+How many BSR registration we expect Daily/Montly based on pst history ?
+
+Every 12 hours CRM will send batch of users to loyality system ? why batch ?
+
+=============
+
+ Burn Point: Return Purchased Bayer Product
+
+Where are SCP details stored ? and how are they related to BSR ? can 1 BSR be linked to multiple SCP ?
+
+How and where does  SCP do the following ? which system ?
+SCP approves the return. 
+SCP scans for receiving the returned Bayer Product. 
+
+Is this realtime ? step 7,8,9 should be after step 4 (instaed of 5)
+
+what is the following in Assumption ?
+CN Specific:  
+
+No return window in CN  
+
+Also in depencency section(below)
+
+Integration with external system to get SCP scan-in record of receiving the returned Bayer product. 
+
+===============
+Burn Point: Redeem from Points Mall
+
+where are the details of Point mall modules stored ?
+======================
+
+Notification Integration 
+
+will this happen via Antao system or this needs to be integrated with new SMS system ? How are meessages stored and devlivered in Antao currentlY?
+
+=============
+Product catalogue :- 
+The product master data will come from APAC Insight.  what is APAC insight ?
+Bayer Sales Org. Hierarchy (shared by master system – APAC Insight) 
+
+Geo Hierarchy (shared by master system – APAC Insight) 
+
+Product code (shared by master system – APAC Insight) 
+===============================================
+
+BJG Replacement with RTCI (Kezzler QR Code + Channel partner Loyalty)
+
+what is Winsafe system ?
+
+===========
+Track and Trace as Supply Chain Management tool. 
+Track and Trace system is developed by WinSafe and Kezzler
+Challenges with this system are - No Global Template or Architecture
+WinSafe - Product Automation
+Kezzler - Product Serialization
+======
+
+What is Loyalty Global in Logical view ? plese explain components. What is tier and leaderboards ?
+
+===========
+
+are the service in the interace regitry9under itgeration architecture) being designed or already available ?
+============
+
+CCSI  is same as Apacinsignt in china
+
+=============
+
+tasks for me 
+
+1) bayer account
+2)Non Prod account - Alokesh
+3) Network diagram and sizing for Prod to ve given
+
+ask roxaane and Ashwaria for any questions asked and pending from bayer
+
